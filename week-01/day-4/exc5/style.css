@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  color: blue;
+}
+
+h2{
+  color: #F4A00F;
+}
+
+.foodtypes > li{
+  color: blue;
+}
+
+.fruits li:first-child{
+  color: red;
+}
+
+.fruits{
+  list-style: disc;
+}
+
+.foodtypes{
+  list-style: square;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+p{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p:last-child{
+  border-bottom: 0;
+}
+
+p:hover{
+  background-color: magenta;
+}
