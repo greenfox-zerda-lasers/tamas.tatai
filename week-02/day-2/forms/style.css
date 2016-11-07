@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dcd6cd;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  color: #4a4261;
+}
+
+main{
+  width: 620px;
+  margin: 0 auto;
+}
+
+.wrapper{
+  width: 620px;
+  margin: 0 auto;
+}
+
+header h1{
+  font-size: 24px;
+  margin-top: 57px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+h4{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+div{
+  width: 300px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal > h1,
+.contact > h1{
+  font-size: 18px;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  background-color: #938c97;
+}
+
+input, .dropmenu{
+  padding: 8px;
+  border-radius: 3px;
+  width: 100%;
+  border: 2px solid #A39CA2;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 2px 4px 0px #e5e5e5;
+  line-height: 18px;
+}
+
+::-webkit-input-placeholder, select#house{
+  font-size: 13px;
+  font-family: 'Montserrat';
+  color: #a0a0a0;
+  padding-top: 10px;
+}
+
+.dropmenu select#house{
+  background: transparent;
+  font-size: 13px;
+  width: 100%;
+  border: none;
+}
+
+.dropmenu select option:first-child{
+  display: none;
+}
+
+.dropmenu{
+  background-color: #fff;
+}
+
+#birth{
+  width: 80px;
+}
+
+.quarter{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.quarter label,
+.quarter input{
+  display: inline-block;
+  width: auto;
+}
+
+.sex{
+  margin-bottom: 5rem;
+}
+
+label [for="female"],
+label [for="male"]{
+  font-weight: 300;
+}
+
+label [for="female"],
+label [for="male"]
+input#female
+input#male{
+  font-weight: 300;
+}
+
+.brands{
+  font-weight: lighter;
+  margin-top: 16px;
+}
+
+p{
+  color: #9f9c98;
+  font-weight: lighter;
+}
+
+h5, h6{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+textarea{
+  height: 166px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid #A39CA2;
+}

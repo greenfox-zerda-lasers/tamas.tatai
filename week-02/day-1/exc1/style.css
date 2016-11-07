@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+p{
+  text-align: justify;
+}
+
+div{
+  width: 300px;
+  border-bottom: solid 3px;
+}
+
+img{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.kacsa2 img{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
