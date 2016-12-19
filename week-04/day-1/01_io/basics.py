@@ -5,7 +5,7 @@ def readfile(file_name):
     f.close()
     return result
 
-#print(readfile('texts/zen_of_python.txt'))
+print(readfile('texts/zen_of_python.txt'))
 
 # 2. Create a method that gets a file_name and a number as param and reads the numberth line of the file
 def readline(file_name, number):

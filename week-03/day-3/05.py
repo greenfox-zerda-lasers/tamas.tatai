@@ -30,4 +30,4 @@ tokmindegy.push("bab")
 tokmindegy.push("bab")
 
 print tokmindegy.pop()
-print(tokmindegy.size())
+print tokmindegy.size()
